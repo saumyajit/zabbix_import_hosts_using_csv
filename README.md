@@ -51,7 +51,7 @@ Here's an example of two hosts: the first one with Zabbix agent and another with
 | NAME   | VISIBLE_NAME | HOST_GROUPS                  | TEMPLATES                                | AGENT_IP    | AGENT_DNS | SNMP_IP     | SNMP_DNS | SNMP_VERSION | DESCRIPTION           | INV_CONTACT | INV_TYPE_FULL | JMX_IP | JMX_DNS  | JMX_PORT |
 |--------|--------------|-----------------------------|-----------------------------------------|------------|-----------|------------|----------|--------------|----------------------|-------------|---------------|--------|----------|----------|
 | Host1  |              | CUSTOMER/MANAGEMENT\|OS/WINDOWS | Windows by Zabbix agent\|Template OS Windows | 127.0.0.1  | localhost |            |          |              | created on 12Nov25   | MANAGEMENT  | MGMT          |        | localhost | 4601    |
-| Host1  |              | CUSTOMER/MANAGEMENT\|OS/LINUX  | Linux by Zabbix agent\|Template OS Linux     |            |           | 127.0.0.1 | localhost | 2            | created on 12Nov25   | MANAGEMENT  | MGMT          |        | localhost | 5801    |
+| Host1  |              | CUSTOMER/MANAGEMENT\|OS/LINUX  | Linux by Zabbix agent\|Template OS Linux     |  127.0.0.1  | localhost |            |          |              | created on 12Nov25   | MANAGEMENT  | MGMT          |        | localhost | 5801    |
 
 
 You can find more specific examples in the examples directory.
