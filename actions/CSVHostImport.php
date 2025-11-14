@@ -466,7 +466,7 @@ class CSVHostImport extends CSVHostImportAction {
 		}
 		
 		if ($host['STATUS'] !== '') {
-			$zbxhost['status'] = $host['STATUS'] !== '' ? intval($host['STATUS']) : 0;
+			$zbxhost['status'] = $host['STATUS'] !== '' ? intval($host['STATUS']) : 1;
 		}
 
 		if ($host['TEMPLATES'] !== '') {
